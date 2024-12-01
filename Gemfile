@@ -9,3 +9,5 @@ group :development, :test do
   gem 'pry', '~> 0.15.0'
   gem 'ruby-lsp', '~> 0.22.1'
 end
+
+gem "clipboard", "~> 2.0"
