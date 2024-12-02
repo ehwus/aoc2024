@@ -8,9 +8,11 @@ GEM
     method_source (1.1.0)
     minitest (5.25.2)
     prism (1.2.0)
-    pry (0.15.0)
+    pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
+    pry-nav (1.0.0)
+      pry (>= 0.9.10, < 0.15)
     rbs (3.6.1)
       logger
     ruby-lsp (0.22.1)
@@ -27,7 +29,8 @@ PLATFORMS
 DEPENDENCIES
   clipboard (~> 2.0)
   minitest (~> 5.25)
-  pry (~> 0.15.0)
+  pry
+  pry-nav
   ruby-lsp (~> 0.22.1)
 
 RUBY VERSION
